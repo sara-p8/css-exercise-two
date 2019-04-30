@@ -1,6 +1,31 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #EDEDED;
+  color: #2C393F;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 33px;
+  font-style: italic;
+}
+
+figcaption {
+  font-size: 10px;
+  line-height: 15px;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 nav {
@@ -49,4 +74,13 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a:link { color:#00C7C7; } /* unvisited */
+a:visited { color:#00C7C7; } /* visited */
+a:hover { color:#FFFFFF; } /* mouse over */
+a:active { color:#FFFFFF; } /* selected */
+
+a {
+  text-decoration: none;
 }
